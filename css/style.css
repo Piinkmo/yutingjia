@@ -44,6 +44,14 @@
 }
 
 .profile-img {
-  height: 100px;
-  border-radius: 50%;
+  height: 180px;
+  border-radius: 100%; 
+}
+
+.font-color {
+  color: #493938;
+}
+
+a {
+  text-decoration: none;
 }
