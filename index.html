@@ -1,223 +1,66 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yuting Jia</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="./images/icon-heart-trans.png" type="image/x-icon" sizes="any">
+    <meta charset="UTF-8">
+    <title>Yuting's HTML Learning Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
-<body>
 
-  <!-- Javascript-->
-  <script>
-    var userName = prompt ("May I have your name please? \n哦哈呦！我是小包~可以告诉我你的名字嘛？");
-    alert("Hello " + userName + "!" + " Welcome to my site! " 
-    + "\n你好" + userName + "，欢迎来到我的网站！")
-  </script>
+<body class="bgColor">
+<h1 class="peach">Yuting's HTML Learning Portfolio</h1>
+<h2 class="subtitle">I am a statistician who loves designing. </h2>
 
-  <!-- Title -->
-  <section id="title" class="background-title">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/beauty_1692200899333.JPG" class="d-block mx-lg-auto img-fluid img-title" alt="Yuting Jia" loading="lazy" >
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-3 fw-bold fst-italic lh-1 outlined-text" style="color: antiquewhite;">Yuting Jia</h1>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <p class="lead my-3 py-3 fw-semibold fs-4 outlined-text" style="color: antiquewhite">I'm a statistician who doubles as a front-end designer, finding beauty in both numbers and UIs.</p>
-        </div>
-      </div>
-    </div>
+<div class="intro-style">
+    <a href="https://piinkmo.github.io/yutingjia/" style="color: #435585;">About Me</a>
+    <a href="./public/contact.html" style="color: #435585;">Contact Me</a>
+</div>
+<hr />
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+<h2><a href="./public/movie-ranking.html" class="barbiepink">2.4 Movie Ranking Project</h2>
+<img src="./assets/images/movie-ranking.png", alt="Movie ranking image", width="400"></a>
 
-  </section>
+<h2><a href="./public/birthday-invite.html" class="barbiepink">3.4 Birthday Invite Project</h2>
+<img src="./assets/images/birthday-invite.png", alt="Birthday invite image", width="400"></a>
 
+<h2><a href="./5.4 Color Vocab Project copy/index.html" class="barbiepink">5.4 ColorVocab Project</h2>
+<img src="./assets/images/colors-in-spanish.png", alt="Colors in Spanish", width="400"></a>
 
+<h2><a href="./6.4 Motivation Meme Project copy/index.html" class="barbiepink">6.4 MotivationMeme Project</h2>
+<img src="./assets/images/motivation-meme.png", alt="Motivation meme", width="400"></a>
 
+<h2><a href="./7.3 CSS Flag Project copy/index.html" class="barbiepink">7.3 CSS Flag Project</a></h2>
 
+<h2><a href="./8.4 Web Design Agency Project copy/index.html" class="barbiepink">8.4 Web Design Agency Project</h2>
+<div class="left"><img src="./assets/images/8.4 iphone.png", width="200"></div>
+<div class="right"><img src="./assets/images/8.4 web.png" , width="300"></div></a>
 
-  <!-- Features -->
-  <section id="features">
-    <div class="container px-4 py-5">
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
-              <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
-              <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
-              </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Education</h3>
-            <p>"Facts are stubborn, but statistics are more pliable."</p>
-            <li><a href="https://carleton.ca/math/" style="color: #cd7a87;" class="fw-medium">Carleton University, Ottawa, Canada</li></a>
-            <span class="fst-italic ps-4"> Bachelor of Mathematics in Statistics</span>
-            <li><a href="https://stat.tamu.edu/people/#all-j" style="color: #cd7a87;" class="fw-medium">Texas A&M University, College Station, US</li></a>
-            <span class="fst-italic ps-4">Master of Science in Statistics</span>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-vinyl" viewBox="0 0 16 16">
-              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-              <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4M4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0"/>
-              <path d="M9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Album</h3>
-            <p>"Music expresses that which cannot be put into words." </p>
-            <li><a href="https://kg.qq.com/node/play?s=TIF0vqT3v4g7RTxK&g_f=personal&appsource=&pageId=personalH5" style="color: #cd7a87;">Your Are Not Alone (cover. Frida Amundsen)</li></a>
-            <li><a href="https://kg.qq.com/node/play?s=spXV5WsDd5Nl1sLN&g_f=personal&appsource=&pageId=personalH5" style="color: #cd7a87;">Intoxicated Love (cover. Maderlin Weng)</li></a>
-            <li><a href="https://kg.qq.com/node/play?s=KdElaAK_Uu0aeKgf&g_f=personal&appsource=&pageId=personalH5" style="color: #cd7a87;">Hypnotic (cover. Zella Day)</li></a>
-            <li><a href="https://kg.qq.com/node/play?s=dKO8rudMDZcTRdM2&g_f=personal&appsource=&pageId=personalH5" style="color: #cd7a87;">Fireworks of My Heart (cover. Yichun Shan)</li></a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-terminal" viewBox="0 0 16 16">
-              <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9M3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708z"/>
-              <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Projects</h3>
-            <p>"CODE ALL THE THINGS!!🔥"</p>
-            <a href="https://github.com/Piinkmo"><img src="./images/githubMeme.jpeg" width="200px" class="pt-2"></a>
-          </div>
-        </div>
-      </div>
-    </div>
+<h2><a href="./9.4 Flexbox Pricing Table Project copy/index.html" class="barbiepink">9.4 Pricing Table Project</h2>
+    <img src="./9.4 Flexbox Pricing Table Project copy/goal-large.png", width="400"></a>
 
-  </section>
+<h2><a href="./10.3 Mondrian Project copy/index.html" class="barbiepink">10.3 Mondrian Project</h2>
+    <img src="./10.3 Mondrian Project copy/dimensions.png" width="400"></a>
 
+<h2><a href="./11.3 TinDog Project copy/index.html" class="barbiepink">11.3 TinDog Project</h2>
+    <img src="./11.3 TinDog Project copy/goal images/11.3 brief.png" width="400"></a>
 
+<h2><a href="./Dicee Challenge - Starting Files copy/index.html" class="barbiepink">Dicee Challenge</h2>
+    <img src="./Dicee Challenge - Starting Files copy/images/dice6.png" width="400"></a>
 
-  <!-- Testimonial -->
-  <section id="testimonial">
-    <div class="my-5">
-      <div class="p-5 text-center bg-body-tertiary">
-        <div class="container py-3">
-          <h2 class="text-body-emphasis">"Fearless on Every Front."
-          </h2>
-        <img src="./images/IMG_1736.JPG" class="profile-img mt-5">
-        <p class="mt-2"> Austin, TX</p>
-        <p class="fw-semibold">Welcome to my personal blog!</p>
+<h2><a href="./Drum Kit Starting Files copy/" class="barbiepink">Drum Kit</h2>
+    <img src="./Drum Kit Starting Files copy/drumWebImage.png" width="400"></a>
+    
+<hr />
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+<!-- TODO 4: Add titles/subtitles etc. -->
+<!-- TODO 5: Add a link to the project pages -->
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 
-        <p>  I'm Yuting Jia, and this is where I document my learning journey and various projects. Born and raised in China for 18 years, I ventured to Canada for university in 2016, marking the beginning of my adulthood journey. Over the past 6 years in Canada, I've immersed myself in learning and working experiences. Currently residing in the US, my story continues to unfold, filled with adventures, discoveries, and the pursuit of new horizons.
-        </p>  
-        <p class="fw-semibold">Thanks for visiting my little corner of the internet.</p>
-        <div class="container mt-5">
-          <button class="d-inline-flex align-items-center btn btn-light btn-lg px-4 rounded-pill gradient-background fw-semibold" type="button"><a href="mailto:yutingjia@tamu.edu" style="color:antiquewhite">
-            Contact me
-          </button></a>
-        </div>
-        </div>
-      </div>
-    </div>
+<footer>
+    <p class="peach"> @Fearless on Every Front<p>
+</footer>
 
-  </section>
-
-
-
-
-
-
-
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="gradient-background">
-      <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
-          <div class="col mb-3">
-
-            <p class="text-body-secondary">© Yuting Jia</p>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-    </div>
-
-  </section>
-
-
-
-<!-- Fixed Nav Bar -->
-
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" aria-label="Tenth navbar example">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="https://piinkmo.github.io/yutingjia/">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-heart" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-            </svg>
-  </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://jiahuama.com">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<script src="script.js" charset="UTF-8"></script>
-</body>
-
-</html>
