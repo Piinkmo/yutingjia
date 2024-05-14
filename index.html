@@ -14,7 +14,7 @@
 <body>
 
   <!-- Javascript-->
-  <script>
+  <script src="script.js" charset="UTF-8">
     var userName = prompt ("May I have your name please? \n哦哈呦！我是小包~可以告诉我你的名字嘛？");
     alert("Hello " + userName + "!" + " Welcome to my site! " 
     + "\n你好" + userName + "，欢迎来到我的网站！")
@@ -25,8 +25,17 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/beauty_1692200899333.JPG" class="d-block mx-lg-auto img-fluid img-title" alt="Yuting Jia" loading="lazy" >
-        </div>
+        <img src="./images/beauty_1692200899333.JPG" class="d-block mx-lg-auto img-fluid img-title" 
+        alt="Yuting Jia" loading="lazy" onclick="playSound()">
+        <audio id = "audio", src="Sounds/Greeting.mp3"></audio>
+        <script>
+          function playSound(){
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+          </script>
+        
+          </div>
         <div class="col-lg-6">
           <h1 class="display-3 fw-bold fst-italic lh-1 outlined-text" style="color: antiquewhite;">Yuting Jia</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
